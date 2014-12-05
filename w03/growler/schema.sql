@@ -6,7 +6,6 @@ CREATE TABLE users (
 	username varchar(100) NOT NULL
 );
 
-
 CREATE TABLE growls (
 	id SERIAL PRIMARY KEY,
 	body varchar(142) NOT NULL,
